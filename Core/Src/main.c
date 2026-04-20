@@ -105,15 +105,15 @@ int main(void)
   CO2_Init();
   Settings_Init();
 	ESP8266_Init();
-	
-	  //WIFIÁ¬½Ó
+	  //HAL_GPIO_WritePin(GPIOB, Beep_Pin, GPIO_PIN_RESET);
+	  //WIFIï¿½ï¿½ï¿½ï¿½
   while (wifi_try < 5 && !ESP8266_ConnectWiFi())
   {
       wifi_try++;
       HAL_Delay(1000);
   }
 	
-	  //ÉÏÔÆ
+	  //ï¿½ï¿½ï¿½ï¿½
 	if(ESP8266_ConnectCloud()==false)
 	{
 		  while(1);
@@ -122,13 +122,13 @@ int main(void)
 	ESP8266_Clear();
 	OLED_Clear();
 	
-	//¶©ÔÄ
+	//ï¿½ï¿½ï¿½ï¿½
 	if(!ESP8266_MQTT_Subscribe(MQTT_TOPIC_POST_REPLY,1))
 	{
 		  while(1);
 	}
 	
-	//·¢²¼
+	//ï¿½ï¿½ï¿½ï¿½
 		if(!ESP8266_MQTT_Subscribe(MQTT_TOPIC_SET,0))
 	{
 		  while(1);

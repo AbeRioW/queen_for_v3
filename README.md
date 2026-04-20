@@ -1,1 +1,2 @@
-# queen_for_v3
+# Smart_Home_Security_System_V2
+基于STM32的智能家庭安防系统设计与实现V2_Queen

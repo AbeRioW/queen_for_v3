@@ -35,7 +35,8 @@ void main_ui(void)
 //    MQTT_Publish_co2(temp_buf);
 //		}
     uint32_t mq5_value = ADC1_ReadValue();
-    sprintf((char*)display_buf3, "MQ5: %u", (unsigned int)mq5_value);
+  //  sprintf((char*)display_buf3, "MQ5: %u", (unsigned int)mq5_value);
+		    sprintf((char*)display_buf3, "MQ5: %d", mq5_value);
     OLED_ShowString(0, 24, (uint8_t*)display_buf3, 8, 1);
     
     OLED_Refresh();

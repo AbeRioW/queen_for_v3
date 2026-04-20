@@ -1,6 +1,6 @@
 smart_home_security_system\co2.o: co2.c
 smart_home_security_system\co2.o: ../App/co2.h
-smart_home_security_system\co2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+smart_home_security_system\co2.o: D:\Program Files\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
 smart_home_security_system\co2.o: ../Core/Inc/usart.h
 smart_home_security_system\co2.o: ../Core/Inc/main.h
 smart_home_security_system\co2.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
@@ -16,7 +16,7 @@ smart_home_security_system\co2.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 smart_home_security_system\co2.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
 smart_home_security_system\co2.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 smart_home_security_system\co2.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-smart_home_security_system\co2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+smart_home_security_system\co2.o: D:\Program Files\KEIL5\ARM\ARMCC\Bin\..\include\stddef.h
 smart_home_security_system\co2.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
 smart_home_security_system\co2.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
 smart_home_security_system\co2.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
